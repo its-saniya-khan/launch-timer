@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import TimerBlock from "./TimerBlock"
 import {TimerWrapper} from "../App.styles"
 
-const LAUNCH_DATE = new Date("2023-06-18T17:12:00");
+const LAUNCH_DATE = new Date("2021-06-18T17:31:00");
 const TIMER_TITLES = ["days","hours","minutes","seconds"]
 
 export default function LaunchTimer({onTimerEnd}) {
